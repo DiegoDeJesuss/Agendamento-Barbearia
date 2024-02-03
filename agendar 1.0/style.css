@@ -18,6 +18,7 @@ body{
 
 .home-logo{ /*DIV DO FUNDO DA LOGO PARA FACILITAR O POSICIONAMENTO*/
   display: flex;
+  font-family: 'Lilita One', sans-serif;
   justify-content: center;
   align-items: center;
   gap: 60px;
@@ -36,6 +37,7 @@ a{
 #sair{
   position: relative;
   right: 50px;
+  font-family: 'Lilita One', sans-serif;
 }
 
 #home{
