@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: gray;
+}
+
+.menu{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+  font-size: 30px;
+  font-weight: 800px;
+}
+
+
+.home-logo{ /*DIV DO FUNDO DA LOGO PARA FACILITAR O POSICIONAMENTO*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.logo-menu{
+  padding: 0;
+  margin: 0;
+  width: 500px;
+  border-bottom: solid orange 1px; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#sair{
+  position: relative;
+  right: 50px;
+}
+
+#home{
+    position: relative;
+    left: 50px;
+}
+
+
+.menu{
+  display: flex;
+  background-color: #ec8e36;
+  height: 122px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.container{
+    position: relative;
+    display: flex;
+    
+    flex-direction:column;
+    background: #1e1d1c;
+    /* background-image: url(foto-barbeiro.jpg); */
+    text-align: center;
+    width: 1080px;
+    height: 700px;
+    margin: auto;
+    color: white;
+}
+
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 22px;
+}
+
+
+
+#opcoes{
+    margin: auto;
+    position: relative;
+    display: flex;
+    width: 700px;
+    padding: 10px;
+    right: 1px;
+    top: 80px; 
+}
+
+
+#opcoes2{
+    margin: auto;
+    position: absolute;
+    display: flex;
+    width: 700px;
+    padding: 10px;
+    top:250px;
+    left:190px
+
+}
+
+
+
+
+#opcoes{
+    border-radius: 5px 2px;
+}
+
+#opcoes, h1{
+    margin-top: 15px;
+}
+
+.dataDeAgendamento{
+  margin: auto;
+  padding: 20px;
+  width: 680px;
+  height: 120px;
+  background-color: gray;
+}
+
+.dataDeAgendamento{
+  border-radius: 5px 2px;
+}
+
+/* img{
+  margin: auto;
+  width: 720px;
+  border-radius: 10px;
+} */
+
+#foto-barbeiro{
+    width: 500px;
+    height: 500px;
+  /* height: 500px; */
+  border-radius: 10px;
+
+}
+
+.BtConfirmar{
+  background: #fc9f43;
+  width: 600px;
+  padding: 10px;
+  
+}
+
+
+
+.BtConfirmar{
+    position: relative;
+  border-radius: 5px 2px;
+  /* bottom: 120px; */
+  top: 25px;
+}
+
+.BtConfirmar:hover{
+  padding: 10px;
+  
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800px;
+  
+}

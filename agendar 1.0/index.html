@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rodape.css">
+    <title>Document</title>
+</head>
+
+  
+<body>
+
+  <header class="menu">
+    <div class="home-logo">
+     <!-- <img src="https://img.freepik.com/vetores-premium/modelo-de-logotipo-vintage-de-barbearia_441059-26.jpg" class="logo-menu"> -->
+     <nav id="home"> <a href="#"> Home </a></nav>
+    </div>
+    <!-- <nav>Galeria de fotos</nav> -->
+    <img src="logo4.png" alt="" class="logo-menu">
+    <nav id="sair"> <a href="#">Sair</a></nav>
+  </header>
+    <div class="container">
+            <h1>Agendar Serviços</h1>
+            <p style="margin-top: 20px;">Escolha o serviço de sua preferência</p>
+    
+      
+      <select id="opcoes">
+        
+
+        <option>Corte a maquina <nav class="corte-maquina"></nav>R$ 20,00</option>
+        <option>Corte a Tesoura <nav class="corte-tesoura"></nav>R$ 40,00</option>
+        <option>Corte Tesoura <nav class="corte-tesoura-e-maquina">R$ 50,00</nav></option>
+        <option>Corte Cabelo + Barba <nav class="corte-barba">R$ 20,00</nav></option>
+        <option>Corte Navalha <nav class="corte-navalha">R$ 20,00</nav></option>    
+     </select>
+     <!-- <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT3e5qnYJL68Kw2JFTpTQkzcNk1yMek_A6Q626AGFBrm1FWsL_E"></img> -->
+     <!-- <img src="foto-barbeiro.png" alt="" id="foto-barbeiro"> -->
+      
+      
+      
+      <select id="opcoes2">
+
+        <option>Horarios de agendamento <nav class=""></nav>07:00</option>
+        <option>Horarios de agendamento <nav class=""></nav>08:00</option>
+        <option>Horarios de agendamento <nav class="">09:00</nav></option>
+        <option>Horarios de agendamento <nav class="">10:00</nav></option>
+        <option>Horarios de agendamento <nav class="">11:00</nav></option>
+        <option>Horarios de agendamento <nav class="">12:00</nav></option>
+        <option>Horarios de agendamento <nav class="">14:00</nav></option> 
+        <option>Horarios de agendamento <nav class="">15:00</nav></option>
+        <option>Horarios de agendamento <nav class="">16:00</nav></option> 
+        <option>Horarios de agendamento <nav class="">17:00</nav></option>
+        <option>Horarios de agendamento <nav class="">18:00</nav></option> 
+        <option>Horarios de agendamento <nav class="">19:00</nav></option>
+        <option>Horarios de agendamento <nav class="">20:00</nav></option>     
+     </select>
+              <span class="dataDeAgendamento">   
+                      <form>
+                          <div>
+                            <label id="escolhaData"  for="diaa">Escolha a data de sua preferencia :
+                            </label>
+                            <input
+                              type="date"
+                              id="bday"
+                              name="diaa"
+                              required
+                              pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" />
+                          </div>
+                        </form>
+                        <button class="BtConfirmar" name="button">Confirmar agendamento.</button>
+                </span>
+                
+    </div>
+
+
+
+<!-- footer -->
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Bar<span>bearia Hair´s Beautiful</span></h3>
+
+      <p class="footer-links">
+        <a href="#" class="link-1">Home</a>
+        
+        <a href="#">Redes Sociais</a>
+      
+        <a href="#">Serviços</a>
+      
+        <a href="#">Sobre Nós</a>
+        
+        <a href="#">Contact</a>
+        
+        <a href="loginadm.jsp">Acesso Administrativo</a>
+      </p>
+
+      <p class="footer-company-name">AfterCode © 2024</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Rua Machado, 98</span> Nova Iguaçu, California</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>55 21 99999-9999</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:hairsbonitos@gmail.com">hairsbonitos@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>Siga-nos nas redes sociais</span>
+        Esteja ligado nas nossas atualizações, sejam elas novas filiais, novos serviços e etc.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="https://www.instagram.com/barbeariahairsbeautiful/"><i class="fa fa-facebook"><img src="views/icons8-instagram-48.png"></i></a>
+        <a href="#"><i class="fa fa-twitter"><img src="views/icons8-twitter-48.png"></i></a>
+        <a href="#"><i class="fa fa-linkedin"><img src="views/icons8-linkedin-48.png"></i></a>
+        
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
